@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterization">
+<parameter name="URL" value="www.schoolCampus.com"/>
+<parameter name="Key" value="http auth token"/>
+<parameter name="Headers" value="application/json"/>
+  <test thread-count="5" name="Parameters">
+    <classes>
+      <class name="TestNGTutorial.Parameterization1"/>
+      <class name="TestNGTutorial.Paramaterization2"/>
+    </classes>
+  </test> <!-- Parameters -->
+</suite> <!-- Parameterization -->

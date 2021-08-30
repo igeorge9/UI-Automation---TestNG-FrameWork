@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Listener" duration-ms="236" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="GroupsTestCase2.groups2ExampleWithoutTag()[pri:0, instance:TestNGTutorial.GroupsTestCase2@51cdd8a]" name="groups2ExampleWithoutTag" class="TestNGTutorial.GroupsTestCase2"/>
+        <method signature="SchoolCampus.groupExampleWithoutTag()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="groupExampleWithoutTag" class="TestNGTutorial.SchoolCampus"/>
+        <method signature="GroupsTestCase.groups1ExampleWithoutTag()[pri:0, instance:TestNGTutorial.GroupsTestCase@71bbf57e]" name="groups1ExampleWithoutTag" class="TestNGTutorial.GroupsTestCase"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="236" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+      <class name="TestNGTutorial.DataProvider">
+        <test-method status="PASS" signature="dataProviderMethod(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.DataProvider@711f39f9]" name="dataProviderMethod" duration-ms="26" started-at="2021-06-22T11:53:37 IST" data-provider="getTestData" finished-at="2021-06-22T11:53:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usename01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderMethod -->
+        <test-method status="PASS" signature="dataProviderMethod(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.DataProvider@711f39f9]" name="dataProviderMethod" duration-ms="2" started-at="2021-06-22T11:53:37 IST" data-provider="getTestData" finished-at="2021-06-22T11:53:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usename02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderMethod -->
+        <test-method status="PASS" signature="dataProviderMethod(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.DataProvider@711f39f9]" name="dataProviderMethod" duration-ms="3" started-at="2021-06-22T11:53:37 IST" data-provider="getTestData" finished-at="2021-06-22T11:53:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usename03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderMethod -->
+      </class> <!-- TestNGTutorial.DataProvider -->
+      <class name="TestNGTutorial.GroupsTestCase2">
+        <test-method status="PASS" signature="groups2ExampleWithoutTag()[pri:0, instance:TestNGTutorial.GroupsTestCase2@51cdd8a]" name="groups2ExampleWithoutTag" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groups2ExampleWithoutTag -->
+      </class> <!-- TestNGTutorial.GroupsTestCase2 -->
+      <class name="TestNGTutorial.CollegeCampus">
+        <test-method status="PASS" signature="beforeEngineerTest()[pri:0, instance:TestNGTutorial.CollegeCampus@3fd7a715]" name="beforeEngineerTest" is-config="true" duration-ms="0" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEngineerTest -->
+        <test-method status="PASS" signature="ExcludedTestcase()[pri:0, instance:TestNGTutorial.CollegeCampus@3fd7a715]" name="ExcludedTestcase" duration-ms="2" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludedTestcase -->
+        <test-method status="PASS" signature="engineer1Test()[pri:0, instance:TestNGTutorial.CollegeCampus@3fd7a715]" name="engineer1Test" duration-ms="2" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineer1Test -->
+        <test-method status="PASS" signature="engineer2Test()[pri:0, instance:TestNGTutorial.CollegeCampus@3fd7a715]" name="engineer2Test" duration-ms="2" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineer2Test -->
+      </class> <!-- TestNGTutorial.CollegeCampus -->
+      <class name="TestNGTutorial.GroupsTestCase">
+        <test-method status="PASS" signature="groups1ExampleWithoutTag()[pri:0, instance:TestNGTutorial.GroupsTestCase@71bbf57e]" name="groups1ExampleWithoutTag" duration-ms="2" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groups1ExampleWithoutTag -->
+        <test-method status="PASS" signature="groups1ExamplewithTag()[pri:0, instance:TestNGTutorial.GroupsTestCase@71bbf57e]" name="groups1ExamplewithTag" duration-ms="2" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groups1ExamplewithTag -->
+      </class> <!-- TestNGTutorial.GroupsTestCase -->
+      <class name="TestNGTutorial.HelperAttributes">
+        <test-method status="PASS" signature="authenticationMethod()[pri:0, instance:TestNGTutorial.HelperAttributes@7f13d6e]" name="authenticationMethod" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationMethod -->
+        <test-method status="PASS" signature="authorizationMethod()[pri:0, instance:TestNGTutorial.HelperAttributes@7f13d6e]" name="authorizationMethod" duration-ms="2" started-at="2021-06-22T11:53:37 IST" depends-on-methods="TestNGTutorial.HelperAttributes.authenticationMethod" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorizationMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGTutorial.HelperAttributes@7f13d6e]" name="login" duration-ms="1" started-at="2021-06-22T11:53:37 IST" depends-on-methods="TestNGTutorial.HelperAttributes.authorizationMethod, TestNGTutorial.HelperAttributes.authenticationMethod" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestNGTutorial.HelperAttributes -->
+      <class name="TestNGTutorial.SchoolCampus">
+        <test-method status="PASS" signature="befoeSuite()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="befoeSuite" is-config="true" duration-ms="45" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befoeSuite -->
+        <test-method status="PASS" signature="beforeStudentTest()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="beforeStudentTest" is-config="true" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeStudentTest -->
+        <test-method status="PASS" signature="groupExampleWithoutTag()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="groupExampleWithoutTag" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupExampleWithoutTag -->
+        <test-method status="PASS" signature="student1Test()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="student1Test" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student1Test -->
+        <test-method status="PASS" signature="student2Test()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="student2Test" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student2Test -->
+        <test-method status="PASS" signature="afterStudentTest()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="afterStudentTest" is-config="true" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterStudentTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNGTutorial.SchoolCampus@26aa12dd]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNGTutorial.SchoolCampus -->
+      <class name="TestNGTutorial.WorkPlaceCampus">
+        <test-method status="PASS" signature="beforeMethodWork()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="beforeMethodWork" is-config="true" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodWork -->
+        <test-method status="PASS" signature="IncludedTestcase()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="IncludedTestcase" duration-ms="2" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludedTestcase -->
+        <test-method status="PASS" signature="afterMethodWork()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="afterMethodWork" is-config="true" duration-ms="0" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodWork -->
+        <test-method status="PASS" signature="beforeMethodWork()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="beforeMethodWork" is-config="true" duration-ms="0" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodWork -->
+        <test-method status="PASS" signature="workTestFood()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="workTestFood" duration-ms="20" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workTestFood -->
+        <test-method status="PASS" signature="afterMethodWork()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="afterMethodWork" is-config="true" duration-ms="3" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodWork -->
+        <test-method status="PASS" signature="beforeMethodWork()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="beforeMethodWork" is-config="true" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodWork -->
+        <test-method status="PASS" signature="workTestGames()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="workTestGames" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workTestGames -->
+        <test-method status="PASS" signature="afterMethodWork()[pri:0, instance:TestNGTutorial.WorkPlaceCampus@d44fc21]" name="afterMethodWork" is-config="true" duration-ms="1" started-at="2021-06-22T11:53:37 IST" finished-at="2021-06-22T11:53:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodWork -->
+      </class> <!-- TestNGTutorial.WorkPlaceCampus -->
+    </test> <!-- Test -->
+  </suite> <!-- Listener -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HelperAttributes">
+  <test thread-count="5" name="Methods">
+    <classes>
+      <class name="TestNGTutorial.GroupsTestCase"/>
+      <class name="TestNGTutorial.HelperAttributes"/>
+      <class name="TestNGTutorial.GroupsTestCase2"/>
+      <class name="TestNGTutorial.CollegeCampus"/>
+      <class name="TestNGTutorial.WorkPlaceCampus"/>
+      <class name="TestNGTutorial.SchoolCampus"/>
+    </classes>
+  </test> <!-- Methods -->
+</suite> <!-- HelperAttributes -->
